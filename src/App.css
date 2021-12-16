@@ -6,7 +6,20 @@
   height: 40vmin;
   pointer-events: none;
 }
+.Title{
+ 
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content:left;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: black;
+  color: #808080;
 
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
